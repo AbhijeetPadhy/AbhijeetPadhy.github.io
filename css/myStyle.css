@@ -23,9 +23,11 @@
 	margin: 0;
 	border: 0;
 }
-ul{
+.footer-social{
 	text-align: center;
 }
-ul li{
-	display: inline-block;
+
+.site-map{
+	list-style: none;
+	padding-left: 0;
 }
