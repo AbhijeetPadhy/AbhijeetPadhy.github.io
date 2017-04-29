@@ -1,5 +1,28 @@
+
+
 .jumbotron{
-	background-color: #ecf0f1;
+	color: white;
+	background-image: url("../img/Screenshot from 2017-04-29 16-22-05.png");
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.panel-body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+}
+
+.panel-title{
+	font-family: 'Fredoka One', cursive;
+}
+
+.heading{
+	font-family: 'Fredoka One', cursive;
+	padding: 20px;
+}
+
+form{
+	font-family: 'Baumans', cursive;
+	font-size: 20px;
 }
 
 .address{
