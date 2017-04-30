@@ -5,8 +5,9 @@
 
 .jumbotron{
 	color: white;
-	background-image: url("../img/Screenshotfrom2017-04-3022-26-43.jpg");
+	background-image: url("../img/jumbo.jpg");
 	font-family: 'Josefin Sans', sans-serif;
+	border-radius: 0 !important
 }
 
 .panel-body{
