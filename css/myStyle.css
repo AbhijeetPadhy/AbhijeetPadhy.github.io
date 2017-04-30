@@ -1,4 +1,6 @@
-body{
+.navbar{
+	background: linear-gradient(rgba(33,33,33 ,1),rgba(33,33,33 ,0.8));
+	border: 0;
 }
 
 .jumbotron{
