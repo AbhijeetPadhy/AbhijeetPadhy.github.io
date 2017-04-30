@@ -19,7 +19,7 @@
 
 
 </head>
-<body onload="load()" style="padding-top:50px;background-color:#95a5a6">
+<body onload="load()" style="padding-top:50px;background-color:#95a5a6" id="bdy" >
 	<div class="container-fluid">
 		<div class="row">
 			<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -32,18 +32,17 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">AbhijeetPadhy</a>
+						<a class="navbar-brand" data-scroll href="#">AbhijeetPadhy</a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Everything <span class="sr-only">(current)</span></a></li>
-							<li><a data-scroll href="#GI">General</a></li>
-							<li><a data-scroll href="#EQ">Education</a></li>
-							<li><a data-scroll href="#AP">Research</a></li>
-							<li><a data-scroll href="#SP">Projects</a></li>
-							<li><a data-scroll href="#SC">Skills</a></li>
+							<li id="G"><a data-scroll href="#GI">General</a></li>
+							<li id="E"><a data-scroll href="#EQ">Education</a></li>
+							<li id="A"><a data-scroll href="#AP">Research</a></li>
+							<li id="P"><a data-scroll href="#SP">Projects</a></li>
+							<li id="S"><a data-scroll href="#SC">Skills</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
@@ -332,6 +331,54 @@ SYSTEMS, DBMS, OBJECT OREINTED PROGRAMMING</p>
 	<script>
 		smoothScroll.init({
 			speed: 1000
+		});
+		$("#G").click(function(){
+			$("#G").addClass('active');
+			$("#E").removeClass('active');
+			$("#A").removeClass('active');
+			$("#P").removeClass('active');
+			$("#S").removeClass('active');
+			$("#C").removeClass('active');
+		});
+		$("#E").click(function(){
+			$("#E").addClass('active');
+			$("#G").removeClass('active');
+			$("#A").removeClass('active');
+			$("#P").removeClass('active');
+			$("#S").removeClass('active');
+			$("#C").removeClass('active');
+		});
+		$("#A").click(function(){
+			$("#A").addClass('active');
+			$("#E").removeClass('active');
+			$("#G").removeClass('active');
+			$("#P").removeClass('active');
+			$("#S").removeClass('active');
+			$("#C").removeClass('active');
+		});
+		$("#P").click(function(){
+			$("#P").addClass('active');
+			$("#E").removeClass('active');
+			$("#A").removeClass('active');
+			$("#G").removeClass('active');
+			$("#S").removeClass('active');
+			$("#C").removeClass('active');
+		});
+		$("#S").click(function(){
+			$("#S").addClass('active');
+			$("#E").removeClass('active');
+			$("#A").removeClass('active');
+			$("#P").removeClass('active');
+			$("#G").removeClass('active');
+			$("#C").removeClass('active');
+		});
+		$("#C").click(function(){
+			$("#C").addClass('active');
+			$("#E").removeClass('active');
+			$("#A").removeClass('active');
+			$("#P").removeClass('active');
+			$("#S").removeClass('active');
+			$("#G").removeClass('active');
 		});
 	</script>
 
