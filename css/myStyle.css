@@ -1,8 +1,10 @@
-
+body{
+	overflow:hidden;
+}
 
 .jumbotron{
 	color: white;
-	background-image: url("../img/Screenshot from 2017-04-29 16-22-05.png");
+	background-image: url("../img/Screenshot from 2017-04-30 22-05-28.png");
 	font-family: 'Josefin Sans', sans-serif;
 }
 
